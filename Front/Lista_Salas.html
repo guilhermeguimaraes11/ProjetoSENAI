@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservas de Sala - SENAI</title>
+  <link rel="stylesheet" href="stylelista.css">
+</head>
+<body>
+  <div class="barra-lateral">
+    <!--Parte do perfil-->
+    <div class="perfil">
+      <div class="foto-perfil"></div>
+      <p>Perfil</p>
+    </div>
+    <!--Menu de navegação-->
+    <nav>
+      <div class="calendario">
+        <img src="Calendar.png" alt="Calendario" />
+      <a href="#">Reservar Sala</a>
+      <div class="calendario">
+        <img src="Calendar.png" alt="Calendario" />
+      <a href="#">Minha Agenda</a>
+    </nav>
+    <!--Botão de Logout-->
+    <div class="logout">LOGOUT</div>
+  </div>
+
+  <div class="principal">
+    <header>
+      <div class="logo">
+        <!-- Logo do site inserida com a tag <img>, que exibe uma imagem -->
+        <img src="senai.png" alt="Logo do site" />
+    </header>
+    <div class="conteudo_central">
+      <h2>RESERVAS DE SALA</h2>
+      <div class="form-reservas">
+        <form>
+          <div class="form-grupo">
+            <label>DATA</label>
+            <input type="date" id="data">
+          </div>
+          <div class="form-grupo">
+            <label>INÍCIO</label>
+            <input type="time" id="horario">
+          </div>
+          <div class="form-grupo">
+            <label>FIM</label>
+            <input type="time" id="horario">
+          </div>
+          <div class="form-grupo">
+            <label>SALA</label>
+            <select id="sala">
+            </select>
+          </div>
+          <botao type="submit">Verificar disponibilidade</botao>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Script que faz a requisição GET e preenche o select -->
+  <script src="appSala.js"></script>
+ </body>
+</html>

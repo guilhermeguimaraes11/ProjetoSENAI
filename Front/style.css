@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e borda sejam incluídos na largura/altura */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #acacac6c;
+}
+
+header {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+section img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px; /* Valor intermediário entre os dois trechos */
+}
+
+section {
+    border: 1px solid black;
+    align-content: center;
+    border-radius: 10px;
+    width: 330px; /* Valor ajustado para um meio-termo */
+    height: 435px; /* Preferi manter a altura maior para evitar cortes */
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
+
+section p {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 53, 53); /* Cor padrão, pode ser ajustada conforme necessário */
+    font-size: 15px;
+}
+
+section input {
+    border: 1px solid rgba(28, 27, 27, 0.404);
+    width: 70%; /* Valor ajustado para ficar entre os dois estilos */
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    background-color: #F0F0F0;
+}
+
+#botao_cadastre-se, #botao_entrar {
+    font-size: 15px;
+    border: solid 1px black;
+    background-color: #b1b1b1;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 65%;
+    cursor: pointer;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    margin: 25px;
+}
+
+footer {
+    text-align: center;
+    bottom: 30px;
+    position: absolute; /* Uniformizado para manter no final da página */
+    width: 100%;
+    font-size: 15px;
+}
+

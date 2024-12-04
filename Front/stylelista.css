@@ -1,0 +1,159 @@
+/* Estilo geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+/* Define o tamanho da imagem da logo */
+header .logo img {
+  width: 130px;
+  height: 40px;
+  margin-right: 30px; /* Espaço entre a logo e o título */
+}
+
+/* Barra lateral */
+.barra-lateral {
+  width: 90px;
+  background-color: #ff0000; 
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  top: 40px; 
+  bottom: 0px;
+  left: 0px; 
+  position: absolute;
+
+}
+
+/* Perfil */
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Forma do perfil */
+.foto-perfil {
+  width: 50px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Menu */
+.barra-lateral nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.barra-lateral a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.calendario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 110px;
+  gap: 20px;
+}
+
+.calendario img {
+  width: 45px;
+  height: 45px;
+  margin-bottom: -10px;
+}
+
+.logout {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+/* Conteúdo principal */
+.principal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: #ff0000;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.conteudo_central {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.form-reservas {
+  background-color: #ddd;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: black;
+  gap: 5px;
+  justify-content: center;
+}
+
+input,
+select,
+botao {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+botao {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+}
